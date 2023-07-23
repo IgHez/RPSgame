@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="hero">
+            <div class="rock"><input class="rockInput" style="display: none;" type="text" value="rock"><button
+                    class="btn2" onclick="handleRock()" value="rock"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiJZ8EgkPdt8IkuYwQA-j4SXS4ZvJdE2AXOykSIS7oOVS326Wd8nw2qm5Gb8SFVhnTF-k&usqp=CAU"
+                        alt=""></button></div>
+            <div class="paper"><input class="paperInput" style="display: none;" type="text" value="paper"><button
+                    class="btn2" onclick="handlePaper()" value="paper"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHP45thKMg-1S1SM0aKGDlQgkUoheOLRBoeQ&usqp=CAU"
+                        alt=""></button></div>
+            <div class="scissors"><input class="scissorsInput" style="display: none;" type="text"
+                    value="scissors"><button class="btn2" onclick="handleScissors()" value="scissors"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzQaf9d6wHHaxpkbyj8jvYYXHVXv1tC6D1pA&usqp=CAU"
+                        alt=""></button></div>
+        </div>
+        <div class="text">
+            <h2 class="writeText" style="color: red;"></h2>
+            <h2 class="writeTextGood" style="color: green;"></h2>
+            <a href="game.html"><button class="btn">Restart</button></a>
+        </div>
+
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
